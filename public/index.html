@@ -6,23 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#317EFB">
   <link rel="shortcut icon" href="assets/icons/icon_96x96.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
 
-  <title>Travel Budget Tracker</title>
+  <title>Rich Uncle Pennybags Budget Tracker</title>
 </head>
-<body>
+<body >
+  
   <div class="wrapper">
-    <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
+    <div class="total" style="margin-top: 170px">
+      <div class="total" style="font-family: 'Russo One', sans-serif ;">Your total is: $<span id="total">0</span></div>
     </div>
 
     <div class="form">
       <input type="text" id="t-name" placeholder="Name of transaction" />
       <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <button id="add-btn" class="addBtn"><i class="fa fa-plus buttons"></i> Add Funds</button>
+      <button id="sub-btn" class="subBtn"><i class="fa fa-minus"></i> Subtract Funds</button>
       <p class="error"></p>
     </div>
 

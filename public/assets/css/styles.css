@@ -1,11 +1,25 @@
 body {
   font-size: 120%;
   font-family: Arial;
+  background-image: url("/assets/budgetTracker_background2.png");
 }
 
 button, input {
   font-size: 100%;
   font-family: Arial;
+}
+
+.addBtn{
+  font-size: 100%;
+  font-family: Arial;
+  background-color: #EFA263;
+
+}
+.subBtn{
+  font-size: 100%;
+  font-family: Arial;
+  background-color: #88D3FF;
+
 }
 
 table {
@@ -19,7 +33,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #C9E1CE;
 }
 
 .error {
