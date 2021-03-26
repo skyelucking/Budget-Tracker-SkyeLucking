@@ -1,3 +1,4 @@
+//Starter code - no changes needed
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
