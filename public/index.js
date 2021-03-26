@@ -1,3 +1,4 @@
+//starter code - no changes made
 let transactions = [];
 let myChart;
 
