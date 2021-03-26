@@ -20,7 +20,7 @@ It's got a Monopoly Theme! We're adding and subtracting $$$ so why not?!
 
 <h1>Screenshots</h1>
 Front Page<br>
-<img src="" style="width: 60%;"><br>
+<img src="https://github.com/skyelucking/Budget-Tracker-SkyeLucking/blob/main/public/assets/SS1.png?raw=true" style="width: 60%;"><br>
 
 
 
